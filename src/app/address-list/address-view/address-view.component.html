@@ -10,6 +10,22 @@
       <input class="form-control" name="lastName" id="lastName" [(ngModel)]="address.lastName">
     </div>
     <div class="form-group">
+      <label for="street">Street number and name</label>
+      <input class="form-control" name="street" id="street" [(ngModel)]="address.street">
+    </div>
+    <div class="form-group">
+      <div class="form-group">
+        <label for="postal_code">Postal code</label>
+        <input class="form-control" name="postal_code" id="postal_code" [(ngModel)]="address.postal_code">
+      </div>
+      <label for="city">City</label>
+      <input class="form-control" name="city" id="city" [(ngModel)]="address.city">
+    </div>
+    <div class="form-group">
+      <label for="country">Country</label>
+      <input class="form-control" name="country" id="country" [(ngModel)]="address.country">
+    </div>
+    <div class="form-group">
       <label for="phone">Phone Number</label>
       <input class="form-control" name="phone" id="phone" [(ngModel)]="address.phone">
     </div>
